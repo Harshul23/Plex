@@ -57,8 +57,8 @@ To run the website locally:
    # Using Python 3 (serves on port 8000)
    python -m http.server 8000
    
-   # Or using Node.js (add -l flag to specify port)
-   npx serve -l 8000
+   # Or using Node.js (specify port with -p flag)
+   npx serve -p 8000
    ```
 4. Navigate to `http://localhost:8000` in your browser
 
