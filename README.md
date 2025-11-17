@@ -36,8 +36,8 @@ To add a new project to the portfolio:
 {
   "title": "Project Name",
   "description": "Brief description of your project",
-  "screenshot": "path/to/screenshot.png",
-  "demoUrl": "link/to/live/demo",
+  "screenshot": "screenshot.png",
+  "demoUrl": "https://example.com/demo",
   "tags": ["tag1", "tag2", "tag3"]
 }
 ```
@@ -54,11 +54,11 @@ To run the website locally:
 2. Open `index.html` in your web browser
 3. For local server (recommended):
    ```bash
-   # Using Python 3
+   # Using Python 3 (serves on port 8000)
    python -m http.server 8000
    
-   # Or using Node.js
-   npx serve
+   # Or using Node.js (add -l flag to specify port)
+   npx serve -l 8000
    ```
 4. Navigate to `http://localhost:8000` in your browser
 
