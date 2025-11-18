@@ -8,6 +8,14 @@ const projects = [
         icon: '',
         link: 'projects/drum-kit/index.html'
     },
+    {
+        id: 'To-do-list',
+        title: 'To-do-list',
+        description: 'A To do list app to add and delete tasks',
+        tags: ['JavaScript', 'HTML', 'CSS'],
+        icon: '',
+        link: 'projects/drum-kit/index.html'
+    },
 ];
 
 // Function to create project card HTML
