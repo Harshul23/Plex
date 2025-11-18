@@ -5,7 +5,7 @@ const projects = [
         title: 'Drum-kit',
         description: 'A simple website which creates different sounds on key Press.',
         tags: ['JavaScript', 'HTML', 'CSS'],
-        icon: '',
+        icon: '<img src="projects/drum-kit/icon.png" alt="Drum-kit">',
         link: 'projects/drum-kit/index.html'
     },
     {
@@ -13,8 +13,8 @@ const projects = [
         title: 'To-do-list',
         description: 'A To do list app to add and delete tasks',
         tags: ['JavaScript', 'HTML', 'CSS'],
-        icon: '',
-        link: 'projects/drum-kit/index.html'
+        icon: '<img src="projects/to-do-list/icon.png" alt="To-do-list">',
+        link: 'projects/to-do-list/index.html'
     },
 ];
 
