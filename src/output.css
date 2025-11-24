@@ -331,9 +331,6 @@
   .h-\[30vh\] {
     height: 30vh;
   }
-  .h-\[50vh\] {
-    height: 50vh;
-  }
   .h-\[80vh\] {
     height: 80vh;
   }
@@ -378,6 +375,12 @@
   }
   .min-w-\[20em\] {
     min-width: 20em;
+  }
+  .min-w-\[98vw\] {
+    min-width: 98vw;
+  }
+  .min-w-\[99vw\] {
+    min-width: 99vw;
   }
   .min-w-\[100vw\] {
     min-width: 100vw;
