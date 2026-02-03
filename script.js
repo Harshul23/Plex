@@ -22,6 +22,15 @@ const projects = [
     link: `${pathPrefix}projects/To-do-list/index.html`,
     category: "web-apps",
   },
+  {
+    id: "Weather-app",
+    title: "Weather-app",
+    description: "A simple weather getting app",
+    tags: ["JavaScript", "HTML", "CSS"],
+    icon: `<img src="">`,
+    link: `${pathPrefix}projects/weather_app/index.html`,
+    category: "web-apps",
+  },
 ];
 
 // Dummy projects for animated section on main page
